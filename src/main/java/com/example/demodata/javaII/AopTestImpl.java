@@ -1,5 +1,7 @@
 package com.example.demodata.javaII;
 
+import org.springframework.stereotype.Service;
+
 /**
  * @ClassName: AopTestImpl
  * @Author: liuzuncai
@@ -7,6 +9,7 @@ package com.example.demodata.javaII;
  * @Date: 2021/2/2 16:51
  * @Version: 1.0
  */
+@Service
 public class AopTestImpl implements AopTest {
     @Override
     public void save(String uname, int age) {

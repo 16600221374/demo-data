@@ -19,7 +19,7 @@ import java.util.Arrays;
 @Configuration
 public class AOPTTTTTest {
 
-    @Pointcut(value = "execution(* generator.javaII.AopTestImpl.*(..))")
+    @Pointcut(value = "execution(* com.example.demodata.javaII.AopTestImpl..*(..))")
     public void pointCut(){
 
     }
