@@ -1,6 +1,7 @@
 package com.example.demodata.javaII;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -29,4 +30,12 @@ public class AOPTTTTTest {
     private void beforeMethod(JoinPoint joinPoint){
         System.out.println("@Before前置通知:"+ Arrays.toString(joinPoint.getArgs()));
     }
+
+    @AfterReturning(value = "pointCut()",returning = "result")
+    private void aftermethod(JoinPoint joinPoint,String result) {
+        Object[] str = joinPoint.getArgs();
+        System.out.println(str[0].toString());
+        System.out.println(result);
+    }
+
 }

@@ -9,5 +9,5 @@ package com.example.demodata.javaII;
  * @Version: 1.0
  */
 public interface AopTest {
-    public void save(String uname, int age);
+    public String save(String uname, int age);
 }
