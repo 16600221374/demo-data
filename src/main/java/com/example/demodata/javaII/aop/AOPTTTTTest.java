@@ -1,4 +1,4 @@
-package com.example.demodata.javaII;
+package com.example.demodata.javaII.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -20,7 +20,7 @@ import java.util.Arrays;
 @Configuration
 public class AOPTTTTTest {
 
-    @Pointcut(value = "execution(* com.example.demodata.javaII.AopTestImpl..*(..))")
+    @Pointcut(value = "execution(* com.example.demodata.javaII.aop.AopTestImpl..*(..))")
     public void pointCut(){
 
     }

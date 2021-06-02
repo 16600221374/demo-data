@@ -1,6 +1,6 @@
 package com.example.demodata.controller;
 
-import com.example.demodata.javaII.AopTestImpl;
+import com.example.demodata.javaII.aop.AopTestImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
