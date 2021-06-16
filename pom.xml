@@ -47,7 +47,11 @@
 <!--            <artifactId>mybatis-spring</artifactId>-->
 <!--            <version>2.0.5</version>-->
 <!--        </dependency>-->
-
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.6</version>
+        </dependency>
         <dependency>
             <groupId>com.koohan</groupId>
             <artifactId>impala-jdbc-driver</artifactId>
@@ -79,6 +83,11 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring</artifactId>
             <version>1.1.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
         </dependency>
     </dependencies>
 
