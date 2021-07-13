@@ -39,6 +39,11 @@ public class AopController {
         Integer e = 321;
         Integer f = 321;
         Long g = 3L;
+        String i = "like";
+        String j = new String("like");
+        String k = new StringBuffer("like").toString();
+        System.out.println(i.equals(j));
+        System.out.println(i == k);
         System.out.println(c == d);
         System.out.println(e == f);
         System.out.println(c == (a + b));

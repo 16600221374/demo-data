@@ -54,7 +54,7 @@ public class ConnectImpala {
     }
 
     public static void main(String[] args) {
-        String sql = "select * from search_test768";
+        String sql = "show create table search_test768";
         test(sql);
     }
 }
